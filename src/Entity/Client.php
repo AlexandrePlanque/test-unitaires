@@ -27,9 +27,15 @@ class Client
      */
     private $abonnement;
     
+    /**
+     * @ORM\Column(type="date")
+     */
     private $age;
     
     
+    /**
+     * @ORM\Column(type="boolean")
+     */
     private $isStudent;
 
     public function getId(): ?int
